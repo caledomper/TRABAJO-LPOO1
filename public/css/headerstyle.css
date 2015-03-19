@@ -1,0 +1,180 @@
+/*COLORES*/
+/*@gris: blue;*/
+/*FUENTES*/
+@font-face {
+  font-family: 'open_sanscondensed_light';
+  src: url('../fonts/OpenSans-CondLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DroidSansRegular';
+  src: url('../fonts/DroidSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*COLORES*/
+/*FUENTES*/
+body {
+  font: normal 14px 'source_sans_proregular', verdana, helvetica, arial, sans-serif;
+}
+h1 {
+  font: normal 2em 'open_sanscondensed_light', verdana, sans-serif;
+}
+h2 {
+  font: normal 1.5em 'open_sanscondensed_light', verdana, sans-serif;
+}
+h3 {
+  font: normal 1.2em 'open_sanscondensed_light', verdana, sans-serif;
+}
+nav {
+  font: normal 20px 'open_sanscondensed_light', verdana, helvetica, arial, sans-serif;
+}
+label,
+input,
+textarea,
+.button {
+  font: normal 1emem/1 tahoma, sans-serif;
+}
+pre,
+code {
+  font: normal 1emem/1.5 'Lucida Console', 'Consolas', 'Courier New', monospace;
+}
+.logo a {
+  font: normal 35px 'open_sanscondensed_light', verdana, helvetica, arial, sans-serif;
+}
+/*BORDES*/
+input {
+  border-radius: 0px !important;
+}
+button {
+  border-radius: 0px !important;
+}
+.panel {
+  border-radius: 0px !important;
+}
+/*APLICACION*/
+body {
+  color: #333333;
+  background-color: #f1f1f1;
+}
+header {
+  padding-top: 10px;
+}
+nav {
+  text-transform: uppercase;
+  background-color: #4a4a4a !important;
+  border-top: 1px solid transparent !important;
+  border-bottom: 1px solid transparent !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-color: #333333 !important;
+  border-radius: 0px !important;
+}
+nav a {
+  color: #ffffff !important;
+}
+nav a:hover {
+  background-color: #428bca !important;
+  color: #ffffff !important;
+}
+nav a:focus {
+  background-color: #428bca !important;
+  color: #ffffff !important;
+}
+nav .icon-bar {
+  background-color: #ffffff !important;
+}
+nav .active a {
+  background-color: #428bca !important;
+  color: #ffffff !important;
+}
+nav button:hover {
+  background-color: #428bca !important;
+  color: #ffffff !important;
+}
+nav button:focus {
+  background-color: #428bca !important;
+  color: #ffffff !important;
+}
+.logo a {
+  color: #333333;
+  text-decoration: none;
+}
+.logo a span {
+  color: #428bca;
+}
+.well {
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px;
+  padding-top: 20px;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.btn-group,
+.btn {
+  width: 100%;
+}
+.logo {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.cart-content {
+  right: 0;
+  left: inherit;
+  border-radius: 0px !important;
+}
+.cart-content b {
+  font-weight: normal;
+  display: block;
+  font-family: 'DroidSansRegular';
+  font-size: 14px;
+  color: #428bca;
+}
+.icon-cart {
+  padding-right: 4px;
+}
+/*IMAGENES*/
+.img-responsive {
+  width: 100%;
+}
+/*BOTON SUBIR*/
+#botonSubir {
+  bottom: 0px;
+  background: none;
+  border-color: #337ab7;
+  border: 1px solid;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 9px 16.5px 9px 16.5px;
+  position: fixed;
+  right: 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #337ab7;
+  transition: all 0.2s ease-in;
+}
+#botonSubir:hover {
+  color: white;
+  background: #337ab7;
+  transition: all 0.2s ease-in;
+  border-color: #337ab7;
+}
+/*CAROUSEL*/
+.carousel {
+  margin-bottom: 20px;
+}
+.panel-heading {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-color: white !important;
+}
+/*# sourceMappingURL=headerstyle.css.map */

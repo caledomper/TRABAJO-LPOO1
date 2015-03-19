@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Redireccionando a la portada principal.</title>
+        <meta charset="UTF-8">
+        <script>
+            var tiempo = 1;
+            var url = "views/index.php";
+            function redireccionarURL()  {
+                window.setTimeout("window.location.href = url", tiempo*100);                
+            }
+        </script>
+    </head>
+    <body onload="redireccionarURL();">
+    </body>
+</html>
